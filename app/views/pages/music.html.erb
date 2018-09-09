@@ -2,6 +2,11 @@
 
 	<!-- visible project blocks -->
 		<div id='portfolio'> 
+			<div class='project musicDoubleLink'>
+				<div class='musicProject'>
+					<span data-modal='music6Modal' class='projBtn'>doubleLink</span>
+				</div>
+			</div>	
 			<div class='project musicGreen'>
 				<div class='musicProject'>
 					<span data-modal='music5Modal' class='projBtn'>green</span>
@@ -31,6 +36,12 @@
 	
 	
 	<!-- project modals -->
+		<div id='music6Modal' class='projModal'>
+		 	<div class='projModalContent'>
+		 		<span class='projClose'>&times;</span>
+		    	<%= render partial: 'music6', layout: false %>
+		  	</div>
+		</div>	
 		<div id='music5Modal' class='projModal'>
 		 	<div class='projModalContent'>
 		 		<span class='projClose'>&times;</span>

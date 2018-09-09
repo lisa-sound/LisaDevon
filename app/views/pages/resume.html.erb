@@ -1,81 +1,81 @@
-<div class='pageDiv resume'>
+<div class='pageDiv filmDiv'>
 
-	<div class='resumeDownload'>
-		[ <%= link_to 'download resume', 'resume.pdf', download: 'LisaDevon', :class => 'resumeDownloadLink' %> ]
+<!-- visible project blocks -->
+	<div id='portfolio'> 
+		<div class='project filmAmericanParadise'>
+			<div class='filmProject'>
+				<span data-modal='film1Modal' class='projBtn'>american paradise</span>
+			</div>
+		</div>
+		<div class='project filmSeaGypsies'>
+			<div class='filmProject'>
+				<span data-modal='film2Modal' class='projBtn'>sea gypsies</span>
+			</div>		
+		</div>
+		<div class='project filmFindingKukan'>
+			<div class='filmProject'>
+				<span data-modal='film3Modal' class='projBtn'>finding kukan</span>
+			</div>
+		</div>
+		<div class='project filmVoicesBeyondTheWall'>
+			<div class='filmProject'>
+				<span data-modal='film4Modal' class='projBtn'>voices beyond the wall</span>
+			</div>
+		</div>
+		<div class='project filmWinningGirl'>
+			<div class='filmProject'>
+				<span data-modal='film5Modal' class='projBtn'>winning girl</span>
+			</div>
+		</div>
+		<div class='project filmGutHack'>
+			<div class='filmProject'>
+				<span data-modal='film6Modal' class='projBtn'>gut hack</span>
+			</div>
+		</div>
+	</div>	
+
+
+<!-- project modals -->
+	<div id='film1Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_AmericanParadise', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='film2Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_SeaGypsies', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='film3Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_FindingKukan', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='film4Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_VoicesBeyondTheWall', layout: false %>
+	  	</div>
 	</div>
 
-	<H2>skills</H2>
-		<H5>
-			<span class='skill'>pro tools HD</span> <span class='skillBreak'>|</span> 
-			<span class='skill'>ableton live</span> <span class='skillBreak'>|</span> 
-			<span class='skill'>logic pro</span> <span class='skillBreak'>|</span>
-			<span class='skill'>SSL duality</span> <span class='skillBreak'>|</span>
-			<span class='skill'>avid D command</span>
-		</H5>
-	<H2>experience</H2> 
-		<H3>disher music & sound — <span class='jobRole'>audio engineer</span></H3>
-			<H4>june 2014 - present</H4> 
-				<TABLE><TR><TD>&nbsp;</TD> 
-					<TD><UL> 
-						<LI>create original sound design, mix and master elements for broadcast, internet, theatrical, and radio standards</LI> 
-						<LI>conduct voiceover, edit, and mix sessions for commercials, audiobooks, film, animations; edit dialogue, music, and effects</LI>
-						<LI>communicate with clients, book sessions, provide invoices, organize and maintain studio environment</LI>
-					</UL></TD>
-				</TR></TABLE> 
-		<H3>AVMS — <span class='jobRole'>a/v technician</span></H3> 
-			<H4>april 2014 - july 2014</H4>
-				<TABLE><TR><TD>&nbsp;</TD> 
-					<TD><UL>
-						<LI>set up and run audio-visual equipment for meetings, conferences, and events</LI>
-					</UL></TD>
-				</TR></TABLE> 
-		<H3>I.A.T.S.E. local 16 — <span class='jobRole'>stagehand</span></H3> 
-			<H4>september 2013 - july 2014</H4>
-				<TABLE><TR><TD>&nbsp;</TD> 
-					<TD><UL>
-						<LI>set up and operate audio-visual equipment for conferences and conventions</LI>
-					</UL></TD>
-				</TR></TABLE>
-		<H3>outpost studios, inc. — <span class='jobRole'>audio engineer</span></H3> 
-			<H4>july 2013 - june 2014</H4>
-				<TABLE><TR><TD>&nbsp;</TD> 
-					<TD><UL>
-						<LI>prepare studio for recording sessions, path phone conference system, route signal in pro tools, utilize preamplifiers/outboard gear, run sessions, edit dialogue, and mix</LI>
-						<LI>maintain studio environment, assist with foley, organize equipment, microphone set-up/placement, and place markers and sound effects in pro tools</LI>
-					</UL></TD>
-				</TR></TABLE>
-		<H3>audible shift — <span class='jobRole'>intern</span></H3> 
-			<H4>march 2013 - december 2013</H4>
-				<TABLE><TR><TD>&nbsp;</TD> 
-					<TD><UL>
-						<LI>record voice-over and edit dialogue for film and audio-visual installations</LI>
-					</UL></TD>
-				</TR></TABLE>
-		<H3>AICA-SF — <span class='jobRole'>audio peer mentor</span></H3> 
-			<H4>august 2012 - september 2013</H4>
-				<TABLE><TR><TD>&nbsp;</TD> 
-					<TD><UL>
-						<LI>assist new and continuing students with on-campus concerns, organize and throw events, maintain student affairs office space</LI>
-					</UL></TD>
-				</TR></TABLE>
-		<H3>women's audio mission — <span class='jobRole'>intern</span></H3> 
-			<H4>september 2012 - december 2012</H4>
-				<TABLE><TR><TD>&nbsp;</TD> 
-					<TD><UL>
-						<LI>maintain studio environment, assist engineers with sessions, organize events, prepare/build gear for classes and demonstrations</LI>
-					</UL></TD>
-				</TR></TABLE>
-		<H3>crosswater media — <span class='jobRole'>sound designer / composer</span></H3> 
-			<H4>august 2011 - march 2012</H4>
-				<TABLE><TR><TD>&nbsp;</TD> 
-					<TD><UL>
-						<LI>compose musical pieces of varying genres, edit dialogue, finalize audio mix for marketing videos</LI>
-					</UL></TD>
-				</TR></TABLE>
-	<H2>education</H2> 
-		<H3><span class='jobRole'>the art institute of california-san francisco</span>  —  bachelor of science</H3>
-			<H4>june 2011 - august 2013</H4>
-		<H3><span class='jobRole'>west valley college</span>  —  associate</H3>
-			<H4>june 2008 - june 2012</H4>
+	<div id='film5Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_WinningGirl', layout: false %>
+	  	</div>
+	</div>
+
+	<div id='film6Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_GutHack', layout: false %>
+	  	</div>
+	</div>
 
 </div>

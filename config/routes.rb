@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   		get '/design' => 'pages#design'	
   		get '/film' => 'pages#film'
   		get '/music' => 'pages#music'
-  		get '/resume' => 'pages#resume'
+  		get '/games' => 'pages#games'
   		get 'pages/download_pdf'
 
 

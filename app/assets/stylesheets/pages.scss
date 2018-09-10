@@ -356,8 +356,8 @@ iframe {
 	}
 
 
-//design, film, music 
-	.filmDiv, .musicDiv, .designDiv {
+//design, film, music, games 
+	.filmDiv, .musicDiv, .designDiv, .gamesDiv {
 		text-align: center;
 	}
 	.project {
@@ -376,20 +376,20 @@ iframe {
 	.project:hover {
 		opacity: 100;
 	}
-	.designProject, .musicProject, .filmProject {
+	.designProject, .musicProject, .filmProject, .gameProject {
 		position: relative;
 		margin-top: 20%;
 		font-size: 2.5vw;
 		color: black;
 	}
-	.designProject a, .musicProject a, .filmProject a, .projBtn{
+	.designProject a, .musicProject a, .filmProject a, .gameProject a, .projBtn{
 		color: white;
 		text-decoration: none;
 		font-family: $font-stack2;
 		letter-spacing: 0.01rem;
 		opacity: 0.75;
 	}
-	.designProject a:hover, .musicProject a:hover, .filmProject a:hover, .projBtn:hover {
+	.designProject a:hover, .musicProject a:hover, .filmProject a:hover, .gameProject a:hover, .projBtn:hover {
 		opacity: 100;
 		text-shadow: 1px 1px black;
 	  cursor: pointer;
@@ -566,7 +566,7 @@ iframe {
 			width: 100%;
 			height: 100%;
 		}
-		.designProject, .musicProject, .filmProject {
+		.designProject, .musicProject, .filmProject, .gameProject {
 			font-size: 250%;
 		}
 		.connect, .about {

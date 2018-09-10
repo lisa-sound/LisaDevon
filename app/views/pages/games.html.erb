@@ -1,0 +1,58 @@
+<div class='pageDiv gameDiv'>
+
+<!-- visible project blocks -->
+	<div id='portfolio'> 
+		<div class='project gameMusicCubed'>
+			<div class='gameProject'>
+				<span data-modal='game1Modal' class='projBtn'>music[cubed]</span>
+			</div>
+		</div>
+		<div class='project gameLinked'>
+			<div class='gameProject'>
+				<span data-modal='game2Modal' class='projBtn'>linked</span>
+			</div>		
+		</div>
+		<div class='project gameDoubleLink'>
+			<div class='gameProject'>
+				<span data-modal='game3Modal' class='projBtn'>doubleLink</span>
+			</div>
+		</div>
+		<div class='project gameEventide'>
+			<div class='gameProject'>
+				<span data-modal='game4Modal' class='projBtn'>eventide</span>
+			</div>
+		</div>
+
+	</div>	
+
+
+<!-- project modals -->
+	<div id='game1Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'game_MusicCubed', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='game2Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'game_Linked', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='game3Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'game_DoubleLink', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='film4Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'game_Eventide', layout: false %>
+	  	</div>
+	</div>
+
+</div>
